@@ -1,9 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { useWindowDimensions } from "../hooks/useWindowDimensions"
+import { useWindowDimensions } from "../../hooks/useWindowDimensions"
 import { faBars } from "@fortawesome/free-solid-svg-icons"
 import React, { useState } from "react"
 import ReactModal from "react-modal"
-import SideBarMenus from "./sidebar/SideBarMenus"
+import SideBarMenus from "../sidebar/SideBarMenus"
+import './Nav.css'
 
 const Nav = () => {
   const [showMenu, setShowMenu] = useState(false)
